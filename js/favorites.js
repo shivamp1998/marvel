@@ -12,7 +12,7 @@ const displayFavorites = () => {
                     <h2>${character.name}</h2>
                     <p>${character.description || 'Description not available'}</p>
                     <button class="favorite-btn" onclick="removeFavorite(${character.id})">Remove from Favorites</button>
-                    <a href="superhero.html?id=${character.id}" target="_blank">More Details</a>
+                    <a href="superhero.html?id=${character.id}">More Details</a>
                 </div>
             </div>
         `).join('');

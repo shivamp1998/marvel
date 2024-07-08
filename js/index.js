@@ -52,7 +52,7 @@ const displayCharacters = (characters) => {
                 <button class="favorite-btn" onclick="toggleFavorite(${character.id})">
                     ${isFavorite(character.id) ? 'Remove from Favorites' : 'Add to Favorites'}
                 </button>
-                <a href="superhero.html?id=${character.id}" target="_blank">More Details</a>
+                <a href="superhero.html?id=${character.id}">More Details</a>
             </div>
         </div>
     `).join('');
