@@ -50,26 +50,6 @@ This Marvel Characters App allows users to search for Marvel superheroes, view d
 - **View Favorites**: View a list of your favorite superheroes.
 - **Remove from Favorites**: Click the "Remove from Favorites" button to remove a superhero from your list of favorites.
 
-## File Structure
-
-project-root/
-│
-├── index.html
-├── favorites.html
-├── superhero.html
-│
-├── css/
-│   └── index.css
-│
-├── js/
-│   ├── md5.js
-│   ├── index.js
-│   ├── superhero.js
-│   └── favorites.js
-│
-
-
-
 ### Description of Files
 
 - **index.html**: The main page for displaying and searching Marvel characters.
@@ -80,7 +60,6 @@ project-root/
 - **js/index.js**: The main JavaScript file for handling the home page functionalities.
 - **js/superhero.js**: The JavaScript file for handling the superhero detail page functionalities.
 - **js/favorites.js**: The JavaScript file for handling the favorites page functionalities.
-- **assets/images/marvel_logo.svg**: The Marvel logo image.
 
 ## API Reference
 
