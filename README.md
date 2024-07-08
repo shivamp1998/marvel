@@ -59,13 +59,16 @@ project-root/
 ├── superhero.html
 │
 ├── css/
-│ └── index.css
+│   └── index.css
 │
 ├── js/
-│ ├── md5.js
-│ ├── index.js
-│ ├── superhero.js
-│ └── favorites.js
+│   ├── md5.js
+│   ├── index.js
+│   ├── superhero.js
+│   └── favorites.js
+│
+
+
 
 ### Description of Files
 
