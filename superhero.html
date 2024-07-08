@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Superhero Details</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo" class="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="favorites.html">My Favorite Superheroes</a>
+            </nav>
+        </header>
+        <div id="superheroDetails" class="card">
+            <img id="heroImage" src="" alt="">
+            <div class="card-content">
+                <h2 id="heroName"></h2>
+                <p id="heroDescription"></p>
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="comics">Comics</button>
+                    <button class="tab-button" data-tab="series">Series</button>
+                    <button class="tab-button" data-tab="stories">Stories</button>
+                    <button class="tab-button" data-tab="events">Events</button>
+                </div>
+                <div class="tab-content active" id="comics">
+                    <h3>Comics</h3>
+                    <ul id="comicsList"></ul>
+                </div>
+                <div class="tab-content" id="series">
+                    <h3>Series</h3>
+                    <ul id="seriesList"></ul>
+                </div>
+                <div class="tab-content" id="stories">
+                    <h3>Stories</h3>
+                    <ul id="storiesList"></ul>
+                </div>
+                <div class="tab-content" id="events">
+                    <h3>Events</h3>
+                    <ul id="eventsList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/md5.js"></script>
+    <script src="js/superhero.js"></script>
+</body>
+</html>
